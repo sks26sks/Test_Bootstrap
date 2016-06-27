@@ -32,13 +32,33 @@ Notes:	 Hand coded for Udemy.com
 
 #search-brand
 {
-  padding: 13px;15px;
+  padding: 13px 15px;
 }
 
 
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel .item
+{
+  height:400px;
+}
+
+#slide1
+{
+  background: url('../../images/carousel_medium_01.jpg') top left no-repeat;
+}
+
+#slide2
+{
+  background: url('../../images/carousel_medium_02.jpg') top left no-repeat;
+}
+
+#slide3
+{
+  background: url('../../images/carousel_medium_03.jpg') top left no-repeat;
+}
+
 
 
 
