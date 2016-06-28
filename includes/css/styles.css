@@ -13,13 +13,35 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+#features
+{
+  text-align: center;
+}
+#features img
+{
+  margin-bottom: 20px;
+}
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
+body
+{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /*font-family: 'BioRhyme Expanded', serif;*/
+}
 
+.well .page-header
+{
+  margin-top: 0;
+}
+
+.well .page-header h1
+{
+  margin-top:0;
+}
 
 
 /* --------------------------------------
@@ -80,7 +102,15 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
+.well
+{
+  margin-top: 20px;
+}
+.alert
+{
+  margin-top: 20px;
+  display: none;
+}
 
 
 /* --------------------------------------
