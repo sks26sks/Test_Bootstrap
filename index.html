@@ -327,14 +327,14 @@
 													consequat. Duis aute irure dolor in reprehenderit
 													in voluptate velit esse cillum dolore eu fugiat
 												</p>
-												<h4>Popovers in a modal</h4>
-												<a href="#" class="btn btn-danger pop">
+												<!-- <h4>Popovers in a modal</h4> -->
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You Clicked it!" data-content="I know you would">
 													Don't Click this button
-												</a>
+											  </a>
 												<h4>Toottips in a modal</h4>
-												<a href="#">this link</a>
+												<a href="#" data-original-title="Tooltip" rel="tooltip">this link</a>
 												should have a tooltip, and so should
-												<a href="#">thsi one</a>!
+												<a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>!
 												<hr>
 												<p>
 													<small class="text-muted">PS. This form doesn't do anything
@@ -357,9 +357,9 @@
 													<div class="form-group">
 														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
 														<div class="col-lg-10">
-															<textarea class="form-control" id="inputMessage" rows="3">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3">
 															</textarea>
-															<button class="btn btn-success pull-right" type="submit">Click</button>
+															<button class="btn btn-success pull-right" type="submit">Send</button>
 														</div>
 												  </div><!--End of form-group-3-->
 												</form>
