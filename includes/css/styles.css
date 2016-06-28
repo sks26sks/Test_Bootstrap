@@ -30,7 +30,7 @@ Notes:	 Hand coded for Udemy.com
   width: 200px;
 }
 
-#search-brand
+.navbar-brand
 {
   padding: 13px 15px;
 }
@@ -39,6 +39,21 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel
+{
+  margin-top: 60px;
+}
+
+.carousel-caption
+{
+  font-size: 24px;
+}
+
+.carousel-caption h4
+{
+  font-size: 32px;
+}
+
 #myCarousel .item
 {
   height:400px;
@@ -46,17 +61,17 @@ Notes:	 Hand coded for Udemy.com
 
 #slide1
 {
-  background: url('../../images/carousel_medium_01.jpg') top left no-repeat;
+  background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
 }
 
 #slide2
 {
-  background: url('../../images/carousel_medium_02.jpg') top left no-repeat;
+  background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
 }
 
 #slide3
 {
-  background: url('../../images/carousel_medium_03.jpg') top left no-repeat;
+  background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
 }
 
 
@@ -78,11 +93,60 @@ Notes:	 Hand coded for Udemy.com
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
+  #myCarousel .item
+  {
+     height: 310px;
+  }
+
+  #slide1
+  {
+    background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+  }
+
+  #slide2
+  {
+    background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+  }
+
+  #slide3
+  {
+    background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+  }
+
+  .carousel-caption
+  {
+    font-size: 16px;
+  }
+
+  .carousel-caption h4
+  {
+    font-size: 22px;
+  }
 
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+  #myCarousel .item
+  {
+    height:500px;
+  }
+
+  #slide1
+  {
+    background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+  }
+
+  #slide2
+  {
+    background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+  }
+
+  #slide3
+  {
+    background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+  }
 
 }
