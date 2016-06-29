@@ -19,12 +19,20 @@ Notes:	 Hand coded for Udemy.com
 }
 #features img
 {
-  margin-bottom: 20px;
+  margin:0 0 20px;
 }
 
 #inputMessage
 {
   margin-bottom: 15px;
+}
+
+footer
+{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
 }
 
 /* --------------------------------------
@@ -47,6 +55,11 @@ body
   margin-top:0;
 }
 
+ul.unstyled
+{
+  list-style: none;
+  padding: 0;
+}
 
 /* --------------------------------------
    Navbar
@@ -153,12 +166,27 @@ body
   font-size: 12px;
 }
 
+.thumbnail span.glyphicon
+{
+  margin-right: 5px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
+@media (max-width: 480px)
+{
+
+.thumbnail .price
+{
+  font-size: 14px;
+}
+
+.thumbnail .price sup
+{
+  font-size: 10px;
+}
 
 }
 
